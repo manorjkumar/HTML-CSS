@@ -1,0 +1,23 @@
+h3{
+    color: blueviolet;
+
+}
+.five{
+    font-style:italic;
+}
+.six{
+    font-variant:small-caps;
+}
+.one1{
+    font-weight:900;
+}
+.one2{
+    font-size: 30px;
+}
+.one3
+{
+    line-height: 80px;
+}
+.one4{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}

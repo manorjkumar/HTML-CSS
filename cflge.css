@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    border: 5px solid black
+}
+.flex_item{
+    color: blue;
+    font-size: 16px;
+    padding: 15px;
+    text-align: center;
+}
+.box-1{background-color: aqua;}
+.box-2{background-color: rgb(90, 232, 50);}
+.box-3{background-color: rgb(102, 42, 112);}
+.box-4{background-color: rgb(168, 185, 35);}
+.box-5{background-color: rgb(203, 36, 36);}
+.box-6{background-color: rgb(61, 209, 28);}
+.box-7{background-color: rgb(106, 0, 255);}
+.box-8{background-color: rgb(214, 232, 18);}
+.box-9{background-color: rgb(226, 52, 191);}
+
+/*.container{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
+    flex-flow: column nowrap;
+    row-gap: 20px;
+    column-gap: 20px;
+    gap: 20px 20px;
+ ----   justify content row means x-->asix   ----
+    flex-flow: row wrap;
+    justify-content: end;
+    justify-content: space-around;
+    justify-content: space-between;
+    justify-content: space-evenly;
+  ---  ---justify contant column-->y axis means-----
+    flex-flow: column wrap;
+    height: 600px;    
+    justify-content: center;
+    justify-content: space-around;
+    justify-content: space-between;
+    justify-content: space-evenly;
+ -------alignment-----------   
+ .item-1{
+    font-size: 30px;
+ }
+    flex-direction: row;
+    height: 600px;
+    align-items: flex-end;
+    align-items: flex-start;
+    align-items: center;
+    align-items: baseline;
+    .item-1{
+        font-size: 30px;
+     }
+    flex-direction: column;
+    height: 600px;
+    align-items: flex-end;
+    align-items: flex-start;
+    align-items: center;
+    align-items: baseline;*/
+
+/*.container{
+    display: flex;
+    height: 600px;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-content: flex-end;
+    align-content: center;
+    align-content: space-around;
+    align-content: space-between;
+.container{
+    display: flex;
+
+}
+.box-1{order: 5;}
+.box-2{order: 4;}
+.box-3{order: 2;}
+.box-4{order: 3;}
+.box-5{order: 1;}*/
+
+.container{
+    display: flex;
+    height: 600px;
+    align-items: stretch;
+
+}
+/*.box-3,.box-4{
+    flex-grow: 1;
+}*/
+.flex_item{
+ width: 100px;
+}
+.box-5{
+    flex-shrink: 3;
+    align-self: center;
+}
+.box-4{
+    align-self: flex-end;
+}
+.box-3{
+    align-self:flex-start;
+}

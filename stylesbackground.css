@@ -1,0 +1,20 @@
+h4{
+    color: darkblue;
+    text-transform:capitalize
+}
+#two1{
+    background-color: darkgreen;
+}
+#two2{
+    background-image:url(pexels-photo-235985.jpeg);
+    background-size:contain;
+}
+#two3{
+    background-size: cover;
+}
+#two4{
+    background-repeat:repeat;
+}
+h5{
+    background-position: center;
+}

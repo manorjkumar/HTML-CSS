@@ -1,0 +1,29 @@
+h1{
+    color: red;
+    background-color: silver;
+    display: inline;
+}
+h2{
+    color: cornflowerblue;
+}
+.one{
+    color: chocolate;
+}
+.two{
+    text-align: center;
+}
+.three{
+    text-indent: 100px;
+}
+.four{
+    text-transform: uppercase;
+}
+#one{
+    letter-spacing: 30px;
+}
+#two{
+    word-spacing: 20px;
+}
+#three{
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
